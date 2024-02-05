@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="areas">
+            <item>Arriba</item>
+            <item>Central</item>
+            <item>Abajo</item>
+        </string-array>
+        <string-array name="bloques">
+            <item>Bloque 1</item>
+            <item>Bloque 2</item>
+            <item>Bloque 3</item>
+            <item>Bloque 4</item>
+            <item>Bloque 5</item>
+            <item>Bloque 6</item>
+            <item>Bloque 7</item>
+            <item>Bloque 8</item>
+        </string-array>
+
+</resources>

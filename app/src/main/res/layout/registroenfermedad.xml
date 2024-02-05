@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoenfermedad">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/aladin"
+        android:text="Nombre de la enfermedad"
+        android:textAlignment="center"
+        android:textColor="#D34D4D"
+        android:textColorHighlight="#AFAFAF"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/etNombreFincaRegisgtro"
+        android:layout_width="247dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="#00D1D1D1"
+        android:ems="10"
+        android:hint="Nombre de la enfermedad"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/btnRegistrarFinca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Registrar Enfermedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spGravedadEnfermedad" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:background="#60FA3D"
+        android:fontFamily="@font/aladin"
+        android:text="Registro de nueva Enfermedad"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Descripcion"
+        android:textAlignment="center"
+        android:textColor="#D34D4D"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreFincaRegisgtro" />
+
+    <EditText
+        android:id="@+id/etDueñoFincaRegistro"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Descripcion de la enfermedad"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <EditText
+        android:id="@+id/etAreaFincaRegistro"
+        android:layout_width="224dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Cultivos afectados"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aladin"
+        android:text="Cultivos afectados"
+        android:textColor="#983333"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateFechaRegistroFinca" />
+
+    <EditText
+        android:id="@+id/dateFechaRegistroFinca"
+        android:layout_width="176dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Fecha de registro"
+        android:textAlignment="center"
+        android:inputType="date"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/aladin"
+        android:text="Fecha de identificacion"
+        android:textColor="#AF3D3D"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDueñoFincaRegistro" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Tipo de cultivo"
+        android:textColor="#983333"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAreaFincaRegistro" />
+
+    <EditText
+        android:id="@+id/etTipoCultivoFincaRegistro"
+        android:layout_width="224dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tipo de cultivo afectado"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Gravedad de la enfermedad"
+        android:textColor="#983333"
+        android:textColorHint="#A16767"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTipoCultivoFincaRegistro" />
+
+    <Spinner
+        android:id="@+id/spGravedadEnfermedad"
+        android:layout_width="299dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423806675581",
+    "project_id": "rfn2024-db58a",
+    "storage_bucket": "rfn2024-db58a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423806675581:android:b52e2262d73e385920df14",
+        "android_client_info": {
+          "package_name": "com.example.rfn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGf_DbHBiyV9WgAixd0FUsE-hDw9mhhOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

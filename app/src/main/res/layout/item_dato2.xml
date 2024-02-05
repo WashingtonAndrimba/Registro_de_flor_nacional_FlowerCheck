@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Datos de la tabla -->
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/tbConsultas"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView50"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/aladin"
+                android:text="ID"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Area"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Bloque"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Fecha"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Cantidad"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Enfermedad"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvBloque"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvEnfermedad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

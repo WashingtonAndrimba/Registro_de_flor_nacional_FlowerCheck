@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoconsultaimg">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta de Enfermedades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spConsultaEnfermedadNombre"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <Button
+        android:id="@+id/btnConsultarEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Consultar Enfermedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultaEnfermedadNombre" />
+
+    <TextView
+        android:id="@+id/tvInfoEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConsultarEnfermedad"
+        android:text=""
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarEnfermedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultaEnfermedadNombre"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/btnActualizarEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toTopOf="@+id/ibEliminarEnfermedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultarEnfermedad" />
+
+    <ImageButton
+        android:id="@+id/ibEliminarEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultarEnfermedad"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoregflor">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Registro de Nuevas Variedades"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNombreFlor"
+        android:layout_width="326dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Nombre Flor"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <Button
+        android:id="@+id/btnAlmacenarNuevaFlor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Almacenar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toEndOf="@+id/btnCancelarRegistroFlor"
+        app:layout_constraintTop_toBottomOf="@+id/etCondicionesCuidadosFlor" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Nombre Flor "
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Fecha de ingreso"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreFlor" />
+
+    <EditText
+        android:id="@+id/etColorFlor"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Color de flor"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/dateIngresoFlor"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Fecha de ingreso"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Color"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateIngresoFlor" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:text="Altura aproximada"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etColorFlor" />
+
+    <EditText
+        android:id="@+id/etAlturaFlor"
+        android:layout_width="322dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Altura de flor"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/aladin"
+        android:text="Temporada de floracion"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAlturaFlor" />
+
+    <EditText
+        android:id="@+id/etTemporadaFlor"
+        android:layout_width="323dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Temporada de Floracion"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Condiciones y cuidados especiales"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTemporadaFlor"
+        android:fontFamily="@font/aladin" />
+
+    <EditText
+        android:id="@+id/etCondicionesCuidadosFlor"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Descripcion a tomar en cuenta"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/btnCancelarRegistroFlor"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:text="Cancelar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCondicionesCuidadosFlor" />
+</androidx.constraintlayout.widget.ConstraintLayout>

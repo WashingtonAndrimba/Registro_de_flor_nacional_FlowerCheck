@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNuevoNombreFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Nombre Flor" />
+
+    <EditText
+        android:id="@+id/etNuevoColorFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Dueño Flor" />
+
+    <EditText
+        android:id="@+id/etNuevaAlturaFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Altura Flor"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/etNuevaTemporadaFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Temporada Flor" />
+
+    <EditText
+        android:id="@+id/etNuevaCondicionesCuidadoFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevas Condiciones Flor" />
+
+    <EditText
+        android:id="@+id/etNuevaFechaRegistroFlor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Fecha de Registro Flor"
+        android:inputType="date" />
+
+
+</LinearLayout>

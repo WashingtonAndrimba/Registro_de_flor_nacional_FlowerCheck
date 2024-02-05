@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoconsultaimg"
+    >
+
+    <ImageButton
+        android:id="@+id/btnEliminarVariedad"
+        android:layout_width="70dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="328dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+        android:contentDescription="Eliminar"
+        android:src="@drawable/baseline_delete_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultarNombreVariedad" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar Variedades"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spConsultarNombreVariedad"
+        android:layout_width="407dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/tvInfoVariedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConsultarVariedad"
+        android:text=""
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarVariedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultarNombreVariedad"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/btnConsultarVariedad"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="Consultar"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultarNombreVariedad" />
+
+    <Button
+        android:id="@+id/btnActualizarVariedades"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultarVariedad" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

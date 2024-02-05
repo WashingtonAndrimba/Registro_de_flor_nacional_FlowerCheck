@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoconsultaimg">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta de fincas"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spConsultaEnfermedadNombre"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <Button
+        android:id="@+id/btnConsultarEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Consultar finca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultaEnfermedadNombre" />
+
+    <TextView
+        android:id="@+id/tvInfoEnfermedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConsultarEnfermedad"
+        android:text=""
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarEnfermedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spConsultaEnfermedadNombre"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/btnActualizarFincas"
+        android:layout_width="144dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:text="Actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultarEnfermedad" />
+
+    <ImageButton
+        android:id="@+id/btnEliminarFinca"
+        android:layout_width="70dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+        android:contentDescription="Eliminar"
+        android:src="@drawable/baseline_delete_24"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarFincas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

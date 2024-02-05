@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNuevoNombreEnfermedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Nombre Enfermedad"/>
+
+    <EditText
+        android:id="@+id/etDescripcionEnfermedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Descripcion"/>
+
+    <EditText
+        android:id="@+id/etCultivosAfectados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Nuevos Cultivos Afectados"/>
+
+    <EditText
+        android:id="@+id/etNuevaFechaRegistroEnfermedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Nueva Fecha Registro"/>
+
+    <EditText
+        android:id="@+id/etNuevoTipoCultivoEnfermedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Tipo de Cultivo"/>
+    <EditText
+        android:id="@+id/etGravedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Gravedad"/>
+
+</LinearLayout>

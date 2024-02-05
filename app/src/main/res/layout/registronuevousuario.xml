@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="266dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/aladin"
+        android:text="Registro de usuario administrativo nuevo"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="161dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aladin"
+        android:scrollbarSize="8dp"
+        android:text="Ingrese Correo"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/etRegistroUsuario"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ingrese su correo electronico"
+        android:textAlignment="center"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="159dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aladin"
+        android:scrollbarSize="8dp"
+        android:text="Ingrese una contraseña"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRegistroUsuario" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingrese una contraseña"
+        android:textAlignment="center"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Vuelva a ingresar la contraseña"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <Button
+        android:id="@+id/btnRegistrarNuevoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="RegistrarUsuario"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spRegistroRolUsuario" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/aladin"
+        android:scrollbarSize="8dp"
+        android:text="Elija el rol"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <Spinner
+        android:id="@+id/spRegistroRolUsuario"
+        android:layout_width="161dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
